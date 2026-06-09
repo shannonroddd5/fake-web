@@ -1,0 +1,124 @@
+/* STyleing of website */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    background-color: #92f6ff;
+    margin: 0;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+}
+h2,h3 {
+    color: darkcyan;
+}
+#top {
+    background-color: rgb(8, 197, 8);
+    scroll-margin-top: 20px;
+}
+.site-header {
+    background-color: darkolivegreen;
+    padding: 28px;
+    border: #1c6a71 groove 40px;
+}
+a {
+    color: deeppink;
+    font-weight: bold;
+    text-decoration:none;
+
+}
+a:hover {
+    text-decoration: underline
+}
+    .page-content {
+width: 85%;
+max-width: 1000px;
+margin: 0 auto;
+    }
+    .content-div {
+        margin: 52px 0;
+    }
+    .intro {
+        background-color: aliceblue;
+        padding: 24px;
+        border: 8px solid #1c6a71;
+    }
+    .image-demo {
+        background-image: url(../Images/Megumi.jpg);
+        background-image: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 120px 40px;
+    }
+    .image-repeat {
+        background-image: url("../Images/raga.jpg");
+        background-repeat: repeat;
+        background-position: center;
+    }
+.size-ex {
+    width: 450;
+    height: 120px;
+    background-color: chartreuse;
+    padding: 16px;
+    border: 30px solid darkmagenta
+}
+.position-ex {
+    position: relative;
+    height: 260px;
+    background-color: white;
+    border: #1c6a71 solid;
+    padding: 16px; 
+}
+.relative-box {
+    position: relative;
+    top: 40px;
+    left: 120px;
+    width: 140px;
+    height: 70px;
+    background-color: hotpink;
+    border: 3px solid burlywood;
+    text-align: center;
+}
+.absolute-box {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 140px;
+    height: 70px;
+    background-color: blanchedalmond;
+    border: 3px solid peru;
+    text-align: center;
+}
+.z-box {
+position: absolute;
+width: 150;
+height: 90;
+color: whitesmoke;
+text-align: center;
+}
+.front {
+z-index: 1;
+background-color: cornflowerblue;
+left: 350px;
+bottom: 50px;
+}
+.back {
+z-index: 2;
+background-color: palevioletred;
+left: 400px;
+bottom: 45px;
+}
+.fixed-note {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background-color: cadetblue;
+    color: hotpink;
+    padding: 10px 14px;
+    border: 2px solid gray;
+}
